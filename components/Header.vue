@@ -50,7 +50,7 @@
           <nav class="">
             <div class="d-flex align-items-center justify-content-end py-2">
               <!-- Menu -->
-              <ul class="nav fw-semibold small mb-0 me-5">
+              <ul class="nav fw-semibold small mb-0 me-5 gap-3">
                 <li class="nav-item">
                   <a href="/" class="nav-link text-dark px-2">Trang Chủ</a>
                 </li>

@@ -1,99 +1,98 @@
 <template>
   <header class="bg-white">
-    <div class="container">
-      <div class="d-flex align-items-center">
-        <div class="logo me-5">
-          <img src="https://cdn3713.cdn-template-4s.com/media/logo/demo-store-logo.webp" alt="Furnicro Logo" />
-        </div>
-        <div class="flex-grow-1">
-          <div class="d-flex align-items-center justify-content-end py-2">
-            <div class="search-bar d-flex me-3">
-              <input type="text" class="form-control rounded-0 bg-light" placeholder="Từ khóa tìm kiếm" />
-              <button class="btn btn-dark rounded-0">
-                <i class="bi bi-search"></i>
+    <div class="d-flex align-items-center">
+      <div class="logo me-5">
+        <img src="https://cdn3713.cdn-template-4s.com/media/logo/demo-store-logo.webp" alt="Furnicro Logo" />
+      </div>
+      <div class="flex-grow-1">
+        <div class="d-flex align-items-center justify-content-end py-2">
+          <div class="search-bar d-flex me-3">
+            <input type="text" class="form-control rounded-0 bg-light" placeholder="Từ khóa tìm kiếm" />
+            <button class="btn btn-dark rounded-0">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="dropdown border-start dropdown-hover">
+              <button class="btn btn-link text-dark text-decoration-none d-flex align-items-center ms-1" type="button">
+                <i class="fa-solid fa-flag me-2"></i>
+                Tiếng Việt
               </button>
+              <ul class="dropdown-menu shadow-sm animate-slide">
+                <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
             </div>
 
-            <div class="d-flex align-items-center">
-              <div class="dropdown border-start dropdown-hover">
-                <button class="btn btn-link text-dark text-decoration-none d-flex align-items-center ms-1" type="button">
-                  <i class="fa-solid fa-flag me-2"></i>
-                  Tiếng Việt
-                </button>
-                <ul class="dropdown-menu shadow-sm animate-slide">
-                  <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
-                  <li><a class="dropdown-item" href="#">English</a></li>
-                </ul>
-              </div>
+            <div class="dropdown dropdown-hover">
+              <button class="btn btn-link text-dark text-decoration-none d-flex align-items-center" type="button">
+                <i class="fa-solid fa-dollar-sign me-2"></i>
+                Việt Nam đồng
+              </button>
+              <ul class="dropdown-menu shadow-sm animate-slide border-end">
+                <li><a class="dropdown-item" href="#">Việt nam đồng</a></li>
+                <li><a class="dropdown-item" href="#">United States Dollar</a></li>
+                <li><a class="dropdown-item" href="#">Yên Nhật</a></li>
+                <li><a class="dropdown-item" href="#">Korea Won</a></li>
+                <li><a class="dropdown-item" href="#">Nhân dân tệ</a></li>
+              </ul>
+            </div>
 
-              <div class="dropdown dropdown-hover">
-                <button class="btn btn-link text-dark text-decoration-none d-flex align-items-center" type="button">
-                  <i class="fa-solid fa-dollar-sign me-2"></i>
-                  Việt Nam đồng
-                </button>
-                <ul class="dropdown-menu shadow-sm animate-slide border-end">
-                  <li><a class="dropdown-item" href="#">Việt nam đồng</a></li>
-                  <li><a class="dropdown-item" href="#">United States Dollar</a></li>
-                  <li><a class="dropdown-item" href="#">Yên Nhật</a></li>
-                  <li><a class="dropdown-item" href="#">Korea Won</a></li>
-                  <li><a class="dropdown-item" href="#">Nhân dân tệ</a></li>
-                </ul>
+            <div class="d-flex align-items-center ms-1 border-start ps-3">
+              <div class="rounded-circle bg-secondary me-2" style="width: 30px; height: 30px"></div>
+              <div>
+                <div class="small text-muted">Tài khoản</div>
+                <div class="fw-semibold">Hoang Mai</div>
               </div>
+            </div>
+          </div>
+        </div>
 
-              <div class="d-flex align-items-center ms-1">
-                <div class="rounded-circle bg-secondary me-2" style="width: 30px; height: 30px"></div>
-                <div>
-                  <div class="small text-muted">Tài khoản</div>
-                  <div class="fw-semibold">Hoang Mai</div>
+        <nav class="">
+          <div class="d-flex align-items-center justify-content-end py-2">
+            <!-- Menu -->
+            <ul class="nav fw-semibold small mb-0 me-5 gap-3">
+              <li class="nav-item">
+                <a href="/" class="nav-link text-dark px-2">Trang Chủ</a>
+              </li>
+              <li class="nav-item">
+                <a href="/noi-that" class="nav-link text-dark px-2">Nội Thất</a>
+              </li>
+              <li class="nav-item">
+                <a href="/dong-ho" class="nav-link text-dark px-2">Đồng Hồ</a>
+              </li>
+              <li class="nav-item">
+                <a href="/chieu-sang" class="nav-link text-dark px-2">Chiếu Sáng</a>
+              </li>
+              <li class="nav-item">
+                <a href="/phu-kien" class="nav-link text-dark px-2">Phụ Kiện</a>
+              </li>
+              <li class="nav-item">
+                <a href="/tin-tuc" class="nav-link text-dark px-2">Tin Tức</a>
+              </li>
+              <li class="nav-item">
+                <a href="/lien-he" class="nav-link text-dark px-2">Liên Hệ</a>
+              </li>
+            </ul>
+
+            <div class="border-start ms-4">
+              <div class="d-flex align-items-center gap-4 ms-4">
+                <div class="position-relative">
+                  <i class="fa-solid fa-basket-shopping fs-5 icon"></i>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    style="font-size: 10px">0</span>
+                </div>
+                <div class="position-relative">
+                  <i class="fa-solid fa-heart fs-5 icon"></i>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    style="font-size: 10px">0</span>
                 </div>
               </div>
             </div>
           </div>
+        </nav>
 
-          <nav class="">
-            <div class="d-flex align-items-center justify-content-end py-2">
-              <!-- Menu -->
-              <ul class="nav fw-semibold small mb-0 me-5 gap-3">
-                <li class="nav-item">
-                  <a href="/" class="nav-link text-dark px-2">Trang Chủ</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/noi-that" class="nav-link text-dark px-2">Nội Thất</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/dong-ho" class="nav-link text-dark px-2">Đồng Hồ</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/chieu-sang" class="nav-link text-dark px-2">Chiếu Sáng</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/phu-kien" class="nav-link text-dark px-2">Phụ Kiện</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/tin-tuc" class="nav-link text-dark px-2">Tin Tức</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/lien-he" class="nav-link text-dark px-2">Liên Hệ</a>
-                </li>
-              </ul>
-
-              <div class="border-start ms-4">
-                <div class="d-flex align-items-center gap-4 ms-4">
-                  <div class="position-relative">
-                    <i class="fa-solid fa-basket-shopping fs-5 icon"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                      style="font-size: 10px">0</span>
-                  </div>
-                  <div class="position-relative">
-                    <i class="fa-solid fa-heart fs-5 icon"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                      style="font-size: 10px">0</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
       </div>
     </div>
   </header>

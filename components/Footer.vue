@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="bg-highlight text-center">
-            <div class="newletter d-flex align-items-center justify-content-center gap-5 py-4 flex-wrap">
+            <div class="newletter d-flex align-items-center justify-content-center gap-3 py-4 ps-5 flex-wrap">
                 <div class="text-white h2 text-uppercase mb-0 mt-3 mb-3">
                     NHẬN THÔNG BÁO
                 </div>
